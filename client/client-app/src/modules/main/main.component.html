@@ -1,0 +1,10 @@
+<mat-toolbar color="primary" [class.mat-elevation-z2]="true">
+    <mat-toolbar-row>
+        <span>Application</span>
+            <a mat-button [routerLink]="[ '/authentication' ]">Authenticate</a> 
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<main>
+    <router-outlet></router-outlet>
+</main>
